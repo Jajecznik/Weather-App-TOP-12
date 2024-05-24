@@ -19,7 +19,7 @@ async function getUserIp() {
 // fetch weather data from api
 async function fetchWeatherData(apiKey, location) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=3&aqi=no&alerts=no`);
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=3&aqi=no&alerts=no`);
         const weatherData = await response.json();
         if (weatherData.error && weatherData.error.code === 1006) {
             console.error('No matching location found.');
