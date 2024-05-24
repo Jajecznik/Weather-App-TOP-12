@@ -1,0 +1,25 @@
+{
+  "name": "weather-app-top-12",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Jajecznik",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
